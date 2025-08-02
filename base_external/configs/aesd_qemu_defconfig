@@ -17,3 +17,7 @@ BR2_PACKAGE_HOST_QEMU=y
 BR2_PACKAGE_HOST_QEMU_SYSTEM_MODE=y
 BR2_PACKAGE_AESD_ASSIGNMENTS=y
 BR2_TARGET_GENERIC_ROOT_PASSWD="root"
+# Below two entries to enable Buildroot ccache
+# https://buildroot.org/downloads/manual/manual.html#ccache
+BR2_CCACHE=y
+BR2_DL_DIR="${HOME}/.dl"
